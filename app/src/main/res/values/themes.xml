@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MLAndroidExamples" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.SplashMLAndroidExamples" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/splash_gradient_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.MLAndroidExamples</item>
+    </style>
+
+</resources>
